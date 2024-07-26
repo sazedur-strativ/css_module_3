@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { ContactCard } from './ContactCard.jsx'
 import FrequentlyAskedQuestion from './FrequentlyAskedQuestion.jsx'
 import './index.css'
 import { LogInForm } from './LogInForm.jsx'
@@ -16,5 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     alert('Submitted')
   }}
   />
+<ContactCard avatarSrc="/public/lion.jpg"
+    name="Mittens"
+    email="meow@gmail.com"/>
   </React.StrictMode>,
 )

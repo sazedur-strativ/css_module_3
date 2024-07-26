@@ -26,6 +26,7 @@ export const LogInForm = ({handleSubmit}) => (
   border: 1px dotted silver;
   padding: 26px 32px 32px;
   border-radius: 2px;
+  margin-bottom:70px;
 
  `
  const Label = styled.label`
