@@ -7,6 +7,7 @@ import DynamicDesign from './DynamicDesign.jsx'
 import FrequentlyAskedQuestion from './FrequentlyAskedQuestion.jsx'
 import './index.css'
 import { LogInForm } from './LogInForm.jsx'
+import ProgressBar from './WorkShop/ProgressBar.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -34,6 +35,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             Sectionals
           </Crumbs>
         </BreadCrumbs>
+        <ProgressBar value={50} size="small" />
+        <ProgressBar value={75} size="medium" />
+        <ProgressBar value={90} size="large" />
     
   </React.StrictMode>,
 )
